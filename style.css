@@ -1,7 +1,7 @@
 /* style.css */
 
 body {
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .hero, footer {
@@ -43,10 +43,14 @@ button, .call-to-action {
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
+    padding-left: 6rem;
+    padding-right: 6rem;
 }
 
 .quote-section {
     background-color: #E5E7EB;
+    padding-left: 6rem;
+    padding-right: 6rem;
 }
 
 .quote-text {
@@ -103,7 +107,7 @@ a:active, a:hover {
 #image-placeholder{
     background-color: #83878e;
     color: #E5E7EB;
-    padding: 2.4rem;
+    padding: 4.8rem;
     margin: 4.8rem;
 }
 
@@ -121,4 +125,41 @@ button {
     align-self: flex-start;
     padding:  8px 16px 8px;
     border-radius: 8px;
+}
+
+.information-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 24px;
+}
+
+.information-list {
+    display: flex;
+    list-style: none;
+    padding: 8px;
+}
+
+.information-list-item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.square {
+    border-radius: 8px;
+    padding: 4px;
+    border: 2px solid #3882F6;
+    height: 96px;
+    width: 96px;
+}
+
+.information-subtext {
+    text-align: center; 
+    margin: 4px;   
+}
+
+.call-to-action {
+    padding-left: 6rem;
+    padding-right: 6rem;
 }
