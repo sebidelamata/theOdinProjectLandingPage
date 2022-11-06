@@ -43,8 +43,6 @@ button, .call-to-action {
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
-    padding-left: 8rem;
-    padding-right: 8rem;
 }
 
 .quote-section {
@@ -170,7 +168,21 @@ button {
 }
 
 .call-to-action {
+    padding: 4rem;
     padding-left: 8rem;
     padding-right: 8rem;
     display: flex;
+    flex-direction: row;
+    gap: 48px;
+    margin: 24px;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+
+.call-to-action-header {
+    font-weight: 1000;
+}
+
+#call-to-action-button {
+    border: 2px solid #E5E7EB;
 }
